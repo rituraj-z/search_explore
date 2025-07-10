@@ -1,8 +1,6 @@
 # Search Explore 🔎
 
-Demo App made to search on different search engines with only one app.
-
-## Upcoming Features
-
-Users will be able to choose their favorite search engines.<br>
+App made to search on different search engines with only one app.
+Users can choose their favorite search engines.<br>
 Recommendations based on searches.
+Easy access to each search engines.
