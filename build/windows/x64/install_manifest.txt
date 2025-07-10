@@ -1,0 +1,12 @@
+C:/Users/yd358/Ritu Raj/Projects/Flutter/search_explore/build/windows/x64/runner/Debug/data/icudtl.dat
+C:/Users/yd358/Ritu Raj/Projects/Flutter/search_explore/build/windows/x64/runner/Debug/flutter_windows.dll
+C:/Users/yd358/Ritu Raj/Projects/Flutter/search_explore/build/windows/x64/runner/Debug/url_launcher_windows_plugin.dll
+C:/Users/yd358/Ritu Raj/Projects/Flutter/search_explore/build/windows/x64/runner/Debug/data/flutter_assets/AssetManifest.bin
+C:/Users/yd358/Ritu Raj/Projects/Flutter/search_explore/build/windows/x64/runner/Debug/data/flutter_assets/AssetManifest.json
+C:/Users/yd358/Ritu Raj/Projects/Flutter/search_explore/build/windows/x64/runner/Debug/data/flutter_assets/FontManifest.json
+C:/Users/yd358/Ritu Raj/Projects/Flutter/search_explore/build/windows/x64/runner/Debug/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+C:/Users/yd358/Ritu Raj/Projects/Flutter/search_explore/build/windows/x64/runner/Debug/data/flutter_assets/kernel_blob.bin
+C:/Users/yd358/Ritu Raj/Projects/Flutter/search_explore/build/windows/x64/runner/Debug/data/flutter_assets/NativeAssetsManifest.json
+C:/Users/yd358/Ritu Raj/Projects/Flutter/search_explore/build/windows/x64/runner/Debug/data/flutter_assets/NOTICES.Z
+C:/Users/yd358/Ritu Raj/Projects/Flutter/search_explore/build/windows/x64/runner/Debug/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+C:/Users/yd358/Ritu Raj/Projects/Flutter/search_explore/build/windows/x64/runner/Debug/data/flutter_assets/shaders/ink_sparkle.frag
