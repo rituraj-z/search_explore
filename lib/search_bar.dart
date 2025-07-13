@@ -1,11 +1,12 @@
-import 'package:flutter/material.dart';
-import 'package:url_launcher/url_launcher_string.dart';
-import 'dart:convert';
 import 'package:http/http.dart' as http;
-import 'package:search_explore/search_engine_enum.dart'; // Import the new enum file
+import 'package:url_launcher/url_launcher_string.dart';
+import 'package:flutter/material.dart';
+import 'dart:convert';
+import 'package:search_explore/search_engine_enum.dart';
+
 
 class Searchbar extends StatefulWidget {
-  final SearchEngine selectedEngine; // Use the imported SearchEngine
+  final SearchEngine selectedEngine;
   final Function(String query) onSearch;
 
   const Searchbar({
@@ -19,7 +20,6 @@ class Searchbar extends StatefulWidget {
 }
 
 class _SearchbarState extends State<Searchbar> {
-  final _txtcontroller = TextEditingController();
   List<String> _suggestions = [];
   bool _isLoadingSuggestions = false;
 
@@ -29,12 +29,8 @@ class _SearchbarState extends State<Searchbar> {
     _txtcontroller.addListener(_onSearchQueryChanged);
   }
 
-  @override
-  void dispose() {
-    _txtcontroller.removeListener(_onSearchQueryChanged);
-    _txtcontroller.dispose();
-    super.dispose();
-  }
+  final _txtcontroller = TextEditingController();
+
 
   void _onSearchQueryChanged() {
     final query = _txtcontroller.text;
@@ -46,6 +42,15 @@ class _SearchbarState extends State<Searchbar> {
       });
     }
   }
+
+
+  @override
+  void dispose() {
+    _txtcontroller.removeListener(_onSearchQueryChanged);
+    _txtcontroller.dispose();
+    super.dispose();
+  }
+
 
   Future<void> _fetchSuggestions(String query) async {
     setState(() {
@@ -74,6 +79,7 @@ class _SearchbarState extends State<Searchbar> {
       });
     }
   }
+
 
   @override
   Widget build(BuildContext context) {
